@@ -1,0 +1,8 @@
+Assumptions:
+- We assume no variations or subdomains are accepted (e.g., test@dso.org.sg.com is not accepted).
+- No database implementation is required for attempt logs or storing generated OTPs; everything is handled in memory.
+- We assume that the send_email function manages the email delivery and all the retry logic. (another SMTP/IMAP module that interacts with our class.)
+
+Testing:
+- Writing some common unit tests.
+- Perform some manual integration tests for the class functions. 
